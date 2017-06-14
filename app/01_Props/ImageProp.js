@@ -15,7 +15,7 @@ export default class ImageProp extends Component {
             uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
         }
 
-        return (<Image source={img} style={{window: 200, height: 110}}/>)
+        return (<Image source={img} style={{width: 200, height: 110}}/>)
     }
 
 }
